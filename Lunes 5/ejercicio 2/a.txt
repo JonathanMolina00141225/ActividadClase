@@ -1,0 +1,7 @@
+Desarrolle un programa en c++ que solicite ingresar un salario mensual bruto y luego realize los siguientes calculos:
+1. Descuentos obligatorios: seguro social/ISSS, 3% del salario con un tope maximo de 30% solo aplica hasta $1000
+2. AFP: 7.25% del salario
+3. Renta: Se calcula sobre el salario neto, despues de AFP y ISSS usando los datos siguientes:
+de $472.01 a $895.24 10%
+de $895.25 a $2038.10 20%
+Mas de $2038.10 30%
