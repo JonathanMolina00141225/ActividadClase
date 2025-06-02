@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int intento, numero=56, intenton;
+    int intento=1, numero=56, intenton;
 
 
     do
@@ -11,12 +11,12 @@ int main() {
     cin>>intento;
         if (intento<numero)
         {
-                    intenton=intenton++;
+                    intenton=intenton + 1;
             cout<<"Su valor es muy bajo"<<endl;
         }
         else if (intento>numero)
         {
-                    intenton=intenton++;
+                    intenton=intenton + 1;
             cout<<"Su valor es muy alto"<<endl;
         }        
         else if (intento=numero)
